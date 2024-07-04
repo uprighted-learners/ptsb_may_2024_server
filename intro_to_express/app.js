@@ -17,9 +17,6 @@ app.use("/practice", practiceController)
 // app.use(logTime) // This will apply the middleware to the controllers below
 app.use("/auth", authController)
 
-
-
-
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`)
 })
